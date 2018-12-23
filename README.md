@@ -2,6 +2,9 @@ This project is for secp256r1 EC operations. The original version is forked from
 # secp256r1-node
 
 ## Installation
+```
+npm i secp256r1
+```
 
 ## Usage
 
