@@ -34,12 +34,6 @@ console.log(secp256r1.verify(msg, sigObj.signature, pubKey))
 // => true
 ```
 
-\* **.verify return false for high signatures**
-
-## Second pure js implementation
-
-Project has yet one secp256r1 implementation based on [elliptic](http://github.com/indutny/elliptic) and [bn.js](http://github.com/indutny/bn.js). This implementation is super experimental, use it at your own risk.
-
 ## LICENSE
 
 This library is free and open-source software released under the MIT license.
