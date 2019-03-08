@@ -30,9 +30,7 @@
   "scripts": {
     "coverage": "RANDOM_TESTS_REPEAT=1 nyc tape test/index.js",
     "coverage-lcov": "npm run coverage && nyc report -r lcov",
-    "install": "npm run rebuild",
     "lint": "standard",
-    "rebuild": "node-gyp rebuild",
     "test": "npm run lint && npm run unit",
     "test:browser": "karma start karma.conf.js",
     "unit": "tape test/index.js"
