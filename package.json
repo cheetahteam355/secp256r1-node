@@ -1,7 +1,7 @@
 {
-  "name": "secp256r1",
-  "version": "0.0.1",
-  "description": "This module provides native bindings to ecdsa secp256r1 functions",
+  "name": "elliptic-utils",
+  "version": "0.0.2",
+  "description": "This module provides native bindings to ecdsa fully compliant ISO requirement functions",
   "keywords": [
     "ec",
     "ecdh",
@@ -24,7 +24,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cheetahteam355/secp256r1-node.git"
+    "url": "git+https://github.com/cheetahteam355/secp256r1-node.git"
   },
   "scripts": {
     "coverage": "RANDOM_TESTS_REPEAT=1 nyc tape test/index.js",
@@ -65,5 +65,11 @@
   "gypfile": true,
   "browser": {
     "./index.js": "./elliptic.js"
-  }
+  },
+  "homepage": "https://github.com/cheetahteam355/secp256r1-node#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "UraNashel <cheetahteam.2020@gmail.com>"
 }
