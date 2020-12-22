@@ -1,6 +1,6 @@
 {
   "name": "elliptic-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This module provides native bindings to ecdsa fully compliant ISO requirement functions",
   "keywords": [
     "ec",
