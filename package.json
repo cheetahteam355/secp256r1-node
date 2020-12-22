@@ -1,6 +1,6 @@
 {
   "name": "secp256r1",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "This module provides native bindings to ecdsa secp256r1 functions",
   "keywords": [
     "ec",
@@ -9,10 +9,9 @@
     "secp256r1"
   ],
   "bugs": {
-    "url": "https://github.com/xiawu/secp256r1-node/issues"
+    "url": "https://github.com/cheetahteam355/secp256r1-node/issues"
   },
   "license": "MIT",
-  "author": "xia wu<xiawu@zeuux.org>",
   "files": [
     "lib",
     "src",
@@ -25,7 +24,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xiawu/secp256r1-node.git"
+    "url": "https://github.com/cheetahteam355/secp256r1-node.git"
   },
   "scripts": {
     "coverage": "RANDOM_TESTS_REPEAT=1 nyc tape test/index.js",
